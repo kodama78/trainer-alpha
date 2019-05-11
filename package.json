@@ -1,0 +1,36 @@
+{
+  "name": "trainer-alpha",
+  "version": "1.0.0",
+  "description": "first steps for macro calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js --ignore client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodama78/trainer-alpha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodama78/trainer-alpha/issues"
+  },
+  "homepage": "https://github.com/kodama78/trainer-alpha#readme",
+  "dependencies": {
+    "apollo-client": "^2.5.1",
+    "axios": "^0.18.0",
+    "connect-mongo": "^2.0.3",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "graphql": "^14.3.0",
+    "graphql-tag": "^2.10.1",
+    "mongoose": "^5.5.6",
+    "nodemon": "^1.19.0",
+    "passport": "^0.4.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "webpack": "^4.30.0"
+  }
+}
