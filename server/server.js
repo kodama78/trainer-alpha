@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-const MONGO_URI = 'mongodb+srv://shawn:shawn@lyricaldb-dfem0.mongodb.net/test?retryWrites=true';
+const MONGO_URI = '';
 
 mongoose.Promise = global.Promise;
 
